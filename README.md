@@ -1,4 +1,4 @@
-# Hemoglobin Prediction using Conjunctival Images
+# Hemoglobin Prediction using Conjunctiva Images
 
 ## Team
 Blah
