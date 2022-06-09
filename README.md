@@ -31,4 +31,6 @@ project
 
 ## Prerequisites
 The dependencies are listed under requirements.txt and are all purely python based. To install them simply run
-    pip install -r requirements.txt
+```
+pip install -r requirements.txt
+```
