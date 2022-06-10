@@ -11,22 +11,16 @@ This repository shows our initial experiments on using images of the conjunctiva
 ## Folder Structure
 
 ```
-project
+anemia-detection
 │   README.md
-│   file001.txt    
-│
-└───folder1
-│   │   file011.txt
-│   │   file012.txt
-│   │
-│   └───subfolder1
-│       │   file111.txt
-│       │   file112.txt
-│       │   ...
-│   
-└───folder2
-    │   file021.txt
-    │   file022.txt
+│   requirements.text  
+└───baselines
+│   │   hue_score_svm.ipynb
+│   └───mean_ann.ipynb 
+└───docs 
+└───experiments
+    └───transfer-learning
+    │   └───sf
 ```
 
 ## Prerequisites
@@ -36,4 +30,4 @@ pip install -r requirements.txt
 ```
 
 ## Dataset
-This repository uses blah blah blah.
+This repository uses the [Eyes-defy-Anemia](https://ieee-dataport.org/documents/eyes-defy-anemia) dataset for all the study and analysis. It also uses [HAM 10000](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000) for the transfer learning priors.
